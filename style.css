@@ -1,0 +1,54 @@
+body {
+    margin: 10px;
+    margin-top: auto;
+    font-family: arial 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(90, 173, 81, 0.875)
+}
+
+header *{
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#Home {
+    background-image: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url('https://cdn.dbusiness.com/wp-content/uploads/sites/33/2023/09/MSU800.jpg');
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url(photos/thumbnail_59519618240__EC7F874A-F282-40EB-AA82-07362AD1BF0A.jpg)
+}
+
+#contact {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://img.freepik.com/premium-photo/abstract-background-images-wallpaper-ai-generated_643360-25019.jpg')    
+}
